@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GTG Perfumes - Premium Fragrances</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo">GTG</a>
+                
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                     <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle">
+                            Shop <span class="chevron">▾</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">All Products</a></li>
+                            <li><a href="#">Men</a></li>
+                            <li><a href="#">Women</a></li>
+                            <li><a href="#">Gift Sets</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="#" class="nav-link">Fragrances</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                    <li class="nav-item">
+                        <div class="nav-icons">
+                            <a href="#" class="icon-link"><i class="fas fa-search"></i></a>
+                            <button class="btn" id="icon-shop-now">Shop Now</button>
+                        </div>
+                    </li>
+                </ul>
+                
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="award-badge">
+                        <span class="award-icon">
+                            <i class="fas fa-award"></i>
+                        </span>
+                        <span class="award-text">Awarded the best perfume in the world</span>
+                    </div>
+                    <br><br>
+                    <h1 class="hero-title">Live your best life.</h1>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span>10x</span>
+                            <p>power</p>
+                        </div>
+
+                        <div class="stat-item">
+                            <span>9</span>
+                            <p>ingredients</p>
+                        </div>
+
+                        <div class="stat-item">
+                            <span>20K+</span>
+                            <p>happy customers</p>
+                        </div>
+                    </div>
+                    <br><br>
+                    <a href="#products" id="icon-shop-below" class="btn btn-primary">Shop Now</a>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <!-- Products Section -->
+    <section class="products" id="products">
+        <div class="container">
+            
+            <div class="product-detail" style="gap: 100px; margin-left: -80px;">
+                <div class="product-gallery">
+                    <!-- Main Image -->
+                    <div class="main-image-container">
+                        <img src="assets/image-2.png" alt="GTG Perfume - Eau de Parfum" class="main-image" id="mainImage">
+                        <button class="nav-btn prev-btn">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <button class="nav-btn next-btn">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                        <div class="image-indicators">
+                            <span class="indicator active" data-index="0"></span>
+                            <span class="indicator" data-index="1"></span>
+                            <span class="indicator" data-index="2"></span>
+                            <span class="indicator" data-index="3"></span>
+                        </div>
+                    </div>
+                    
+                    <!-- Thumbnails -->
+                    <div class="thumbnails">
+                        <div class="thumbnail" data-index="0">
+                            <img src="assets/image-6.jpg" alt="Perfume Bottle">
+                        </div>
+                        <div class="thumbnail" data-index="1">
+                            <img src="assets/image-4.jpg" alt="Perfume on Table">
+                        </div>
+                        <div class="thumbnail" data-index="2">
+                            <img src="assets/image-5.jpg" alt="Perfume Ingredients">
+                        </div>
+                        <div class="thumbnail" data-index="3">
+                            <img src="assets/image-3.jpg" alt="Perfume Packaging">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="thumbnails">
+                        <div class="thumbnail" data-index="0">
+                            <img src="assets/image-6.jpg" alt="Perfume Bottle">
+                        </div>
+                        <div class="thumbnail" data-index="1">
+                            <img src="assets/image-4.jpg" alt="Perfume on Table">
+                        </div>
+                        <div class="thumbnail" data-index="2">
+                            <img src="assets/image-5.jpg" alt="Perfume Ingredients">
+                        </div>
+                        <div class="thumbnail" data-index="3">
+                            <img src="assets/image-3.jpg" alt="Perfume Packaging">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-info">
+                    <h1 class="product-title">GTG Perfumes</h1>
+                    <div class="product-rating">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span class="rating-text">4.7 (999+ reviews)</span>
+                        </div>
+                    </div>
+                    <br>
+                    <p class="product-description">Experience the timeless allure backed by modern artistry, 
+                        captured in every bottle of our fragrance. Crafted for those who seek to elevate their 
+                        essence with purpose and sophistication.</p>
+                    
+                    <div class="options">
+                        <!-- Subscription Options -->
+                        <div class="subscription-option">
+                            <div class="subscription-details" id="singleSubscription">
+                                <div class="subscription-header">
+                                    <h3>Most Popular</h3>
+                                </div>
+                                <div class="subscription-title">
+                                    <input type="radio" name="purchaseType" value="single" checked>
+                                    <span>Single Subscription</span>
+                                    <div class="subscription-price">
+                                        <span class="current-price">$99.99</span>
+                                        <span class="original-price">$146</span>
+                                    </div>
+                                </div>
+                                <div class="subscription-content">
+                                    <hr style="width: 520px; margin-left: 24px; margin-top: 0px;">
+                                    <div class="fragrance-options">
+                                        <br>
+                                        <h3>Choose a Fragrance</h3>
+                                        <div class="fragrance-buttons">
+                                            <button class="fragrance-btn active" data-fragrance="original">
+                                                <div>
+                                                    <input type="radio" name="fragrance" value="original" checked style="width: 10.5px; height: 10.3px;">
+                                                    <span class="fragrance-name">Original</span>
+                                                </div>
+                                                <span class="fragrance-badge">BESTSELLER</span>
+                                                <img src="assets/image-7.png" alt="Original-image" id="fragrance-image">
+                                            </button>
+                                            <button class="fragrance-btn" data-fragrance="lily">
+                                                <div>
+                                                    <input type="radio" name="fragrance" value="lily" style="width: 10.5px; height: 10.3px;">
+                                                    <span class="fragrance-name">Lily</span>
+                                                </div>
+                                                <img src="assets/image-7.png" alt="Lily-image" id="fragrance-image" style="margin-top: 0px;">
+                                            </button>
+                                            <button class="fragrance-btn" data-fragrance="rose">
+                                                <div>
+                                                    <input type="radio" name="fragrance" value="rose" style="width: 10.5px; height: 10.3px;">
+                                                    <span class="fragrance-name">Rose</span>
+                                                </div>
+                                                <img src="assets/image-7.png" alt="Rose-image" id="fragrance-image" style="margin-top: 0px;">
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="included-features">
+                                        <h3>What's Included:</h3>
+                                        <div class="feature-columns">
+                                            <div class="every-30-days">
+                                                <span>Every 30 days</span>
+                                                <img src="assets/image-7.png" alt="Image">
+                                            </div>
+                                            <div class="one-time">
+                                                <span>One Time <strong style="font-weight: 600;">(Free)</strong></span>
+                                                <div>
+                                                    <p><img src="assets/image-7.png" alt="Image" id="fragrance-image" style="margin-top: 0px;"></p>
+                                                    <p><img src="assets/image-7.png" alt="Image" id="fragrance-image" style="margin-top: 0px;"></p>
+                                                    <p><img src="assets/image-7.png" alt="Image" id="fragrance-image" style="margin-top: 0px;"></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="subscription-content">
+                                        <ul>
+                                            <li>1 Bottle Shipped Monthly</li>
+                                            <li><strong>Free</strong> Sampler For Original, Lily and Rose Fragrances</li>
+                                            <li><strong>50% OFF Shipping</strong></li>
+                                            <li>Pause Or Cancel Anytime After 3 Months Minimum</li>
+                                            <li>28 Day Money Back Guarantee*</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="subscription-option">
+                            <div class="subscription-details" id="doubleSubscription">
+                                <div class="subscription-title">
+                                    <input type="radio" name="purchaseType" value="subscription">
+                                    <span>Double Subscription</span>
+                                    <div class="subscription-price">
+                                        <span class="current-price">$169.99</span>
+                                        <span class="original-price">$146</span>
+                                    </div>
+                                </div>
+                                <div class="subscription-content">
+                                    <hr style="width: 520px; margin-left: 24px; margin-top: 0px;">
+                                    <div class="fragrance-options">
+                                        <br>
+                                        <h3>Choose a Fragrance 1</h3>
+                                        <div class="fragrance-buttons">
+                                            <button class="fragrance-btn active" data-fragrance="original">
+                                                <div>
+                                                    <input type="radio" name="fragrance" value="original" checked style="width: 10.5px; height: 10.3px;">
+                                                    <span class="fragrance-name">Original</span>
+                                                </div>
+                                                <span class="fragrance-badge">BESTSELLER</span>
+                                                <img src="assets/image-7.png" alt="Original-image" id="fragrance-image">
+                                            </button>
+                                            <button class="fragrance-btn" data-fragrance="lily">
+                                                <div>
+                                                    <input type="radio" name="fragrance" value="lily" style="width: 10.5px; height: 10.3px;">
+                                                    <span class="fragrance-name">Lily</span>
+                                                </div>
+                                                <img src="assets/image-7.png" alt="Lily-image" id="fragrance-image" style="margin-top: 0px;">
+                                            </button>
+                                            <button class="fragrance-btn" data-fragrance="rose">
+                                                <div>
+                                                    <input type="radio" name="fragrance" value="rose" style="width: 10.5px; height: 10.3px;">
+                                                    <span class="fragrance-name">Rose</span>
+                                                </div>
+                                                <img src="assets/image-7.png" alt="Rose-image" id="fragrance-image" style="margin-top: 0px;">
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="fragrance-options">
+                                        <br>
+                                        <h3>Choose a Fragrance 2</h3>
+                                        <div class="fragrance-buttons">
+                                            <button class="fragrance-btn active" data-fragrance="original">
+                                                <div>
+                                                    <input type="radio" name="fragrance" value="original" checked style="width: 10.5px; height: 10.3px;">
+                                                    <span class="fragrance-name">Original</span>
+                                                </div>
+                                                <span class="fragrance-badge">BESTSELLER</span>
+                                                <img src="assets/image-7.png" alt="Original-image" id="fragrance-image">
+                                            </button>
+                                            <button class="fragrance-btn" data-fragrance="lily">
+                                                <div>
+                                                    <input type="radio" name="fragrance" value="lily" style="width: 10.5px; height: 10.3px;">
+                                                    <span class="fragrance-name">Lily</span>
+                                                </div>
+                                                <img src="assets/image-7.png" alt="Lily-image" id="fragrance-image" style="margin-top: 0px;">
+                                            </button>
+                                            <button class="fragrance-btn" data-fragrance="rose">
+                                                <div>
+                                                    <input type="radio" name="fragrance" value="rose" style="width: 10.5px; height: 10.3px;">
+                                                    <span class="fragrance-name">Rose</span>
+                                                </div>
+                                                <img src="assets/image-7.png" alt="Rose-image" id="fragrance-image" style="margin-top: 0px;">
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="included-features">
+                                        <h3>What's Included:</h3>
+                                        <div class="feature-columns">
+                                            <div class="every-30-days">
+                                                <span>Every 30 days</span>
+                                                <img src="assets/image-7.png" alt="Image">
+                                            </div>
+                                            <div class="one-time">
+                                                <span>One Time <strong style="font-weight: 600;">(Free)</strong></span>
+                                                <div>
+                                                    <p><img src="assets/image-7.png" alt="Image" id="fragrance-image" style="margin-top: 0px;"></p>
+                                                    <p><img src="assets/image-7.png" alt="Image" id="fragrance-image" style="margin-top: 0px;"></p>
+                                                    <p><img src="assets/image-7.png" alt="Image" id="fragrance-image" style="margin-top: 0px;"></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="subscription-content">
+                                        <ul>
+                                            <li>2 Bottles Shipped Monthly</li>
+                                            <li><strong>Free</strong> Sampler For Original, Lily and Rose Fragrances</li>
+                                            <li><strong>50% OFF Shipping</strong></li>
+                                            <li>Pause Or Cancel Anytime After 3 Months Minimum</li>
+                                            <li>28 Day Money Back Guarantee*</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                    </div>
+                    
+                    <!-- Add to Cart Button (Dynamic) -->
+                    <a href="#" class="btn btn-cart" id="addToCartBtn">Add to Cart</a>
+                    
+                    <div class="product-features">
+                        <div class="feature">
+                            <i class="fas fa-truck"></i>
+                            <span>Free Shipping</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>2-Year Warranty</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-leaf"></i>
+                            <span>Vegan & Cruelty-Free</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="collection-content">
+            <div class="collection-left">
+                <h2>Our Collection</h2>
+                <br>
+                <details class="accordion" open>
+                    <summary>
+                        <span><strong style="font-weight: 700; font-size: 20px;">Signature Scents</strong></span>
+                        <span class="icon">−</span>
+                    </summary>
+                    <p>Discover our curated line of signature perfumes, designed to become your daily companion.</p>
+                </details>
+
+                <details class="accordion">
+                    <summary>
+                        <span><strong style="font-weight: 700; font-size: 20px;">Signature Scents</strong></span>
+                        <span class="icon">+</span>
+                    </summary>
+                </details>
+
+                <details class="accordion">
+                    <summary>
+                        <span><strong style="font-weight: 700; font-size: 20px;">Signature Scents</strong></span>
+                        <span class="icon">+</span>
+                    </summary>
+                </details>
+
+                <details class="accordion">
+                    <summary>
+                        <span><strong style="font-weight: 700; font-size: 20px;">Signature Scents</strong></span>
+                        <span class="icon">+</span>
+                    </summary>
+                </details>
+
+            </div>
+            <div class="collection-right">
+                <img src="assets/image-8.jpg" alt="Perfume Collection" />
+            </div>
+        </div>
+    </section>
+
+    <!-- Data counter stats section -->
+    <section class="stats-section">
+
+        <div class="stats-grid">
+            <div class="stat-card">
+                <h3 class="stat-number" data-target="84">
+                    <span class="stat-value">0</span><span>%</span></h3>
+                <p class="stat-label">Customer Satisfaction</p>
+            </div>
+            <div class="stat-card">
+                <h3 class="stat-number" data-target="78">
+                    <span class="stat-value">0</span><span>%</span></h3>
+                <p class="stat-label">Eco-Friendly Materials</p>
+            </div>
+            <div class="stat-card">
+                <h3 class="stat-number" data-target="89">
+                    <span class="stat-value">0</span><span>%</span></h3>
+                <p class="stat-label">Global Reach</p>
+            </div>
+            <div class="stat-card">
+                <h3 class="stat-number" data-target="90">
+                    <span class="stat-value">0</span><span>%</span></h3>
+                <p class="stat-label">Product Excellence</p>
+            </div>
+        </div>
+
+    </section>
+
+    <br><br><br>
+
+    <div style="text-align: center; font-family: 'Oxanium'; font-size: 40px; font-weight: 300;">---</div>
+
+    <!-- Table Section -->
+    <section class="comparison">
+        <div class="container">
+            <h2>Why GTG is the #1 Choice</h2>
+        </div>
+        <br><br>
+        <div class="comparison-wrapper">
+            <table class="comparison-table">
+                <thead>
+                <tr>
+                    <th class="qualities"><strong style="font-weight: 700;">Qualities</strong></th>
+
+                    <th class="featured">
+                        <img src="assets/image-9.jpg" alt="GTG">
+                        <span class="brand">GTG</span>
+                    </th>
+
+                    <th>
+                        <img src="assets/image-6.jpg" alt="Arose">
+                        <span class="brand">Arose</span>
+                    </th>
+
+                    <th>
+                        <img src="assets/image-5.jpg" alt="Bella">
+                        <span class="brand">Bella</span>
+                    </th>
+
+                    <th>
+                        <img src="assets/image-3.jpg" alt="Daisies">
+                        <span class="brand">Daisies</span>
+                    </th>
+                </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Potency Concentration</td>
+                        <td class="featured">10x</td>
+                        <td>1x</td>
+                        <td>1x</td>
+                        <td>10x</td>
+                    </tr>
+
+                    <tr>
+                        <td>Longevity</td>
+                        <td class="featured check">✓</td>
+                        <td class="cross">✕</td>
+                        <td class="cross">✕</td>
+                        <td class="check">✓</td>
+                    </tr>
+
+                    <tr>
+                        <td>Sillage</td>
+                        <td class="featured check">✓</td>
+                        <td class="cross">✕</td>
+                        <td class="cross">✕</td>
+                        <td class="cross">✕</td>
+                    </tr>
+
+                    <tr>
+                        <td>Bottle Design Score</td>
+                        <td class="featured">9</td>
+                        <td>5</td>
+                        <td>6</td>
+                        <td>2</td>
+                    </tr>
+
+                    <tr>
+                        <td>Blend &amp; Harmony</td>
+                        <td class="featured check">✓</td>
+                        <td class="cross">✕</td>
+                        <td class="cross">✕</td>
+                        <td class="cross">✕</td>
+                    </tr>
+
+                    <tr>
+                        <td>Skin Compatibility</td>
+                        <td class="featured check">✓</td>
+                        <td class="cross">✕</td>
+                        <td class="cross">✕</td>
+                        <td class="cross">✕</td>
+                    </tr>
+
+                    <tr>
+                        <td>Scent Profile</td>
+                        <td class="featured check">✓</td>
+                        <td class="check">✓</td>
+                        <td class="cross">✕</td>
+                        <td class="cross">✕</td>
+                    </tr>
+
+                    <tr>
+                        <td>Price vs. Quality</td>
+                        <td class="featured check">✓</td>
+                        <td class="check">✓</td>
+                        <td class="cross">✕</td>
+                        <td class="check">✓</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <br><br><br>
+
+        <button class="btn" id="icon-risk-free">Try It Risk-Free</button>
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <!-- Logo and Brand Section -->
+                <div class="footer-brand">
+                    <a href="#" class="footer-logo">GTG</a>
+                </div>
+                <br>
+            <div class="footer-content">
+                
+                <!-- Quick Links Section -->
+                <div class="footer-links" style="display: flex;">
+                    <ul class="footer-menu">
+                        <li><a href="#" class="footer-link">Home</a></li>
+                        <li><a href="#" class="footer-link">Shop</a></li>
+                        <li><a href="#" class="footer-link">Fragrances</a></li>
+                    </ul>
+                    <ul class="footer-menu">
+                        <li><a href="#" class="footer-link">About Us</a></li>
+                        <li><a href="#" class="footer-link">Blog</a></li>
+                        <li><a href="#" class="footer-link">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Social Media Section -->
+                <div class="footer-social">
+                    <h3 class="footer-heading">Social Links</h3>
+                    <div class="social-platforms">
+                        <a href="#" class="social-platform">
+                            <i class="fab fa-facebook"></i>
+                            <span>Facebook</span>
+                        </a>
+                        <a href="#" class="social-platform">
+                            <i class="fab fa-instagram"></i>
+                            <span>Instagram</span>
+                        </a>
+                        <a href="#" class="social-platform">
+                            <i class="fab fa-twitter"></i>
+                            <span>Twitter</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Newsletter Section -->
+                <div class="footer-newsletter" style="font-family: 'Inter' !important;">
+                    <h3 class="footer-heading">Stay Updated</h3>
+                    <p class="newsletter-description">
+                        Join our newsletter to stay up to date on features and releases.
+                    </p>
+                    
+                    <form class="newsletter-form" id="newsletterForm">
+                        <div class="input-group">
+                            <input type="email" class="newsletter-input" placeholder="Enter your email" required>
+                            <button type="submit" class="newsletter-btn">
+                                <span>Subscribe</span>
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </div>
+                        
+                        <div class="form-note">
+                            <p>
+                                By subscribing you agree to with our <a href="#" class="policy-link">Privacy Policy</a> 
+                                and provide consent to receive updates from our company.
+                            </p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <p class="copyright">&copy; 2023 GTG Perfumes. All rights reserved.</p>
+                    <div class="legal-links">
+                        <a href="#" class="legal-link">Privacy Policy</a>
+                        <a href="#" class="legal-link">Terms of Service</a>
+                        <a href="#" class="legal-link">Cookie Policy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
