@@ -1095,6 +1095,8 @@ input[type="radio"] {
     .subscription-details .fragrance-buttons {
         grid-template-columns: 1fr;
         gap: 10px;
+        width: 270px;
+        margin-left: 150px;
     }
 
     .subscription-details .fragrance-btn {
@@ -2295,6 +2297,7 @@ input[type="radio"] {
     
     .product-title {
         font-size: 1.8rem;
+        text-align: center;
     }
     
     .radio-group {
@@ -2321,6 +2324,16 @@ input[type="radio"] {
     
     section {
         padding: 60px 0;
+    }
+
+    .product-rating {
+        display: flex;
+        justify-content: center;
+    }
+
+    .product-description {
+        display: flex;
+        text-align: center;
     }
 }
 
@@ -2666,6 +2679,20 @@ a:focus {
         left: -26px;
         top: 42px; 
     }
+    .product-info .included-features h3 + .feature-columns {
+        width: 50px;
+        margin-left: 100px;
+    }
+
+    .product-info button.fragrance-btn img {
+        position: inherit;
+        right: -100px;
+    }
+
+    .product-info .included-features h3 {
+        font-size: 1.1rem;
+        text-align: center;
+    }
 }
 
 @media (max-width: 480px) {
@@ -2710,6 +2737,12 @@ a:focus {
 
     .product-info .included-features h3 {
         font-size: 1.1rem;
+        text-align: center;
+    }
+
+    .product-info .included-features h3 + .feature-columns {
+        width: 50px;
+        margin-left: 100px;
     }
 
     .product-info .every-30-days span,
@@ -2749,5 +2782,10 @@ a:focus {
 
     .product-info .subscription-content ul li {
         font-size: 12px;
+    }
+
+    .product-info button.fragrance-btn img {
+        position: inherit;
+        right: -100px;
     }
 }
