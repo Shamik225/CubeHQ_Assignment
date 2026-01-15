@@ -751,8 +751,12 @@ button#icon-shop-now {
     color: #032E15;
     font-weight: 300;
     font-size: 20px;
-    margin-left: -210px;
+    margin-left: -280px;
     margin-bottom: 10px;
+}
+
+#doubleSubscription .subscription-title > span {
+    margin-right: -14px;
 }
 
 .subscription-title h2 {
@@ -766,7 +770,8 @@ button#icon-shop-now {
     align-items: end;
     justify-content: flex-end;
     gap: 15px;
-    margin-top: 0px;
+    margin-top: -10px;
+    margin-right: 10px;
     height: 30px;
 }
 
@@ -2693,6 +2698,15 @@ a:focus {
         font-size: 1.1rem;
         text-align: center;
     }
+
+    .subscription-content li::before {
+        content: '✓';
+        position: absolute;
+        margin-left: 100px;
+        color: var(--primary-color);
+        font-weight: bold;
+    }
+    
 }
 
 @media (max-width: 480px) {
@@ -2787,5 +2801,13 @@ a:focus {
     .product-info button.fragrance-btn img {
         position: inherit;
         right: -100px;
+    }
+
+    .subscription-content li::before {
+        content: '✓';
+        position: absolute;
+        margin-left: 100px;
+        color: var(--primary-color);
+        font-weight: bold;
     }
 }
